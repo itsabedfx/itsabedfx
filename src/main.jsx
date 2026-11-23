@@ -1,18 +1,24 @@
 import React, { useEffect, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import content from './content.json';
+import instagramIcon from "./assets/instagram.svg";
+import behanceIcon from "./assets/behance.svg";
+import pinterestIcon from "./assets/pinterest.svg";
+import linkedinIcon from "./assets/linkedin.svg";
+import mailIcon from "./assets/mail.svg";
+import whatsappIcon from "./assets/whatsapp.svg";
 import avatarImage from './assets/avatar.jpg';
 import portfolioCover from './assets/portfolio-cover.jpg';
 import './styles.css';
 
 
 const icons = {
-  instagram: <path d="C:\Users\user\Desktop\abedfx-site-updated\src\assets\instagram"/>,
-  behance: <path d="M3C:\Users\user\Desktop\abedfx-site-updated\src\assets\behance" />,
-  pinterest: <path d="C:\Users\user\Desktop\abedfx-site-updated\src\assets\pinterest" />,
-  linkedin: <path d="C:\Users\user\Desktop\abedfx-site-updated\src\assets\linkedin" />,
-  mail: <path d="C:\Users\user\Desktop\abedfx-site-updated\src\assets\mail" />,
-  whatsapp: <path d="C:\Users\user\Desktop\abedfx-site-updated\src\assets\whatsapp" />
+  instagram: <img src={instagramIcon} alt="Instagram" />,
+  behance: <img src={behanceIcon} alt="Behance" />,
+  pinterest: <img src={pinterestIcon} alt="Pinterest" />,
+  linkedin: <img src={linkedinIcon} alt="LinkedIn" />,
+  mail: <img src={mailIcon} alt="Email" />,
+  whatsapp: <img src={whatsappIcon} alt="WhatsApp" />,
 };
 function Icon({name}) { return <svg viewBox="0 0 24 24" aria-hidden="true" className="icon">{icons[name]}</svg> }
 function useReveal() {
