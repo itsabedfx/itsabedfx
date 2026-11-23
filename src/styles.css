@@ -505,33 +505,6 @@ footer {
     }
 }
 
-@media(prefers-reduced-motion:reduce) {
-    html {
-        scroll-behavior: auto
-    }
-
-    .crt-floor .plane,
-    .crt-flat,
-    .crt-bloom {
-        animation: none
-    }
-
-    .cell,
-    .socials a,
-    .reveal {
-        transition: none
-    }
-
-    .reveal,
-    .cell.reveal {
-        opacity: 1;
-        filter: none;
-        transform: none;
-        mask-image: none;
-        -webkit-mask-image: none
-    }
-}
-
 a:focus-visible {
     outline: 2px solid var(--sand);
     outline-offset: 3px
