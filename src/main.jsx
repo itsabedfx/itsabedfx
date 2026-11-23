@@ -20,7 +20,15 @@ const icons = {
   mail: <img src={mailIcon} alt="Email" />,
   whatsapp: <img src={whatsappIcon} alt="WhatsApp" />,
 };
-function Icon({name}) { return <svg viewBox="0 0 24 24" aria-hidden="true" className="icon">{icons[name]}</svg> }
+function Icon({ name }) {
+  return (
+    <img
+      src={icons[name]}
+      alt=""
+      className="icon"
+    />
+  );
+}
 function useReveal() {
   useEffect(() => {
     const nodes = document.querySelectorAll('.reveal');
