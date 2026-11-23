@@ -1,0 +1,27 @@
+{
+  "profile": {
+    "name": "Abed FX",
+    "role": "Graphic Designer · Visual Identity",
+    "bio": "I design ideas and build visual identities. Logos, branding, print and more, always with an extraordinary touch.",
+    "since": "EST. 2023",
+    "avatar": "./assets/avatar.jpg"
+  },
+  "portfolio": {
+    "title": "Portfolio 2026",
+    "description": "My portfolio, live on Behance.",
+    "url": "https://www.behance.net/abedfx",
+    "cover": "./assets/portfolio-cover.jpg"
+  },
+  "links": [
+    {"name":"Instagram","description":"Follow the work in progress, drafts and finished pieces.","label":"FOLLOW","url":"https://www.instagram.com/its.abedfx/","icon":"instagram"},
+    {"name":"Behance","description":"The full portfolio — identities and finished projects.","label":"VIEW WORK","url":"https://www.behance.net/abedfx","icon":"behance"},
+    {"name":"Pinterest","description":"Moodboards, references and visual inspiration I collect.","label":"BROWSE","url":"https://pinterest.com/its_abedfx/","icon":"pinterest"},
+    {"name":"LinkedIn","description":"Connect with me professionally.","label":"CONNECT","url":"https://www.linkedin.com/in/abed-al-hamid-mnawar-232111301/","icon":"linkedin"}
+  ],
+  "contact": {
+    "phone": "+963 967 438 580",
+    "whatsapp": "https://wa.me/963967438580",
+    "email": "abedmnawar18@gmail.com",
+    "instagram": "https://www.instagram.com/its.abedfx/"
+  }
+}
