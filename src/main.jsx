@@ -13,20 +13,18 @@ import './styles.css';
 
 
 const icons = {
-  instagram: <img src={instagramIcon} alt="Instagram" />,
-  behance: <img src={behanceIcon} alt="Behance" />,
-  pinterest: <img src={pinterestIcon} alt="Pinterest" />,
-  linkedin: <img src={linkedinIcon} alt="LinkedIn" />,
-  mail: <img src={mailIcon} alt="Email" />,
-  whatsapp: <img src={whatsappIcon} alt="WhatsApp" />,
+  instagram: <image href={instagramIcon} width="24" height="24" />,
+  behance: <image href={behanceIcon} width="24" height="24" />,
+  pinterest: <image href={pinterestIcon} width="24" height="24" />,
+  linkedin: <image href={linkedinIcon} width="24" height="24" />,
+  mail: <image href={mailIcon} width="24" height="24" />,
+  whatsapp: <image href={whatsappIcon} width="24" height="24" />,
 };
-function Icon({ name }) {
+function Icon({name}) {
   return (
-    <img
-      src={icons[name]}
-      alt=""
-      className="icon"
-    />
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="icon">
+      {icons[name]}
+    </svg>
   );
 }
 function useReveal() {
